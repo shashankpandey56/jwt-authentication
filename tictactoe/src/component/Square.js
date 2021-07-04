@@ -3,7 +3,9 @@ import React from "react";
 function Square({ value }) {
   return (
     <div>
-      <button>{value}</button>
+      <button type="button" className="square">
+        {value}
+      </button>
     </div>
   );
 }
